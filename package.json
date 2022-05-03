@@ -1,0 +1,14 @@
+{
+  "name": "udemy_ko_playwright_js_bdd_codeceptjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Rajat Verma",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^3.3.3",
+    "playwright": "^1.21.1",
+    "prettier": "^2.6.2"
+  }
+}
