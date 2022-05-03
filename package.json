@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+
+    "-----------> Comment #1": "UDEMY - Kaniel Outis (Section 10: BDD with CodeceptJS and Playwright) - START",
+    "test_all":"codeceptjs run",
+    "test_example":"codeceptjs run ./tests/example_test.js",
+    "test_e2e":"codeceptjs run ./tests/e2e_test.js",
+    "-----------> Comment #2": "UDEMY - Kaniel Outis (Section 10: BDD with CodeceptJS and Playwright) - END"
+
+  },
   "author": "Rajat Verma",
   "license": "ISC",
   "dependencies": {

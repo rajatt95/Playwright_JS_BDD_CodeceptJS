@@ -38,6 +38,7 @@ Scenario('Should load example.com website - second test', ({ I }) => {
     I.dontSee('Google')
     I.seeElement('h1')
     I.dontSeeElement('#idontexist')
+
 })
 
 Scenario('Should load example.com website - third test - Faling intentionally', ({ I }) => {

@@ -22,7 +22,8 @@ setHeadlessWhen(process.env.HEADLESS);
 setCommonPlugins();
 
 exports.config = {
-  tests: './*_test.js',
+  //tests: './*_test.js',
+  tests: './tests/*_test.js',
   output: './output',
   helpers: {
     Playwright: {
@@ -32,9 +33,23 @@ exports.config = {
     }
   },
   include: {
-    I: './steps_file.js'
+    I: './steps_file.js',
+    LoginPage: './pages/LoginPage.js',
   },
   bootstrap: null,
   mocha: {},
-  name: '_03_KO_Playwright_JS_BDD_CodeceptJS'
+  name: '_03_KO_Playwright_JS_BDD_CodeceptJS',
+  plugins: {
+    pauseOnFail: {},
+    retryFailedStep: {
+      enabled: true,
+    },
+    tryTo: {
+      enabled: true,
+    },
+    screenshotOnFail: {
+      enabled: true,
+    },
+  },
+
 }
