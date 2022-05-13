@@ -7,7 +7,8 @@ Automation Testing | Web | Playwright | Javascript | VS Code | BDD | CodeceptJS 
 # Tutor: <a href="https://www.udemy.com/user/shinoku911/">Kaniel Outis</a>
 
 ------------------------------------------------------------------------------------------------------------------------
-Learnings from Course : 
+# Learnings from Course : [Summary_UDEMY_KO_Automated Software Testing with Playwright.pdf](https://github.com/rajatt95/Playwright_JS_BDD_CodeceptJS/files/8687168/Summary_UDEMY_KO_Automated.Software.Testing.with.Playwright.pdf)
+
 ------------------------------------------------------------------------------------------------------------------------
 
 ![image](https://user-images.githubusercontent.com/26399692/166568266-872df232-57bd-4152-97ee-432b733190a7.png)
